@@ -19,3 +19,15 @@ Configure the above Lines in code with you WiFi Network SSID and Password.
 After making all the necessary changes explained above, Upload Code on NodeMCU or the board you have, Open thingSpeak 
 and see the Sensed Current published. 
 You can also use a Multimeter to verify that the sensed current readings are correct. 
+
+# Grab Measured Current in Android App from Anywhere
+Download the MIT app Inventor project file named 'EnergyMeter.aia', go to http://ai2.appinventor.mit.edu, 
+after logging in, click on New Project, Click 'Import Project (aia) from my computer'
+and upload the aia file. 
+
+Now change to 'Blocks' view from 'Designer' view in the upper left corner on Screen and write your thingSpeak Channel Id 
+ReadApiKey in the respective blocks as shown below:
+![alt text](https://imgur.com/01nen1X)
+
+Click on Build > Provide QR Code for APK. Scan QR code and Download the app APK File Install and
+Click on Button 'Get Sensed Current' to see the currently sensed current value. Enjoy!
