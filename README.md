@@ -27,7 +27,7 @@ and upload the aia file.
 
 Now change to 'Blocks' view from 'Designer' view in the upper left corner on Screen and write your thingSpeak Channel Id 
 ReadApiKey in the respective blocks as shown below:
-![alt text](https://imgur.com/01nen1X)
+![alt text](https://i.imgur.com/01nen1X.png)
 
 Click on Build > Provide QR Code for APK. Scan QR code and Download the app APK File Install and
 Click on Button 'Get Sensed Current' to see the currently sensed current value. Enjoy!
